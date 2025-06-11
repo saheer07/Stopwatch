@@ -4,7 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css"; // ✅ Add this
-import { ThemeProvider } from "./context/ThemeContext.jsx";
+import { ThemeProvider } from "./Context/ThemeContext.jsx";
 
  // ✅
 
