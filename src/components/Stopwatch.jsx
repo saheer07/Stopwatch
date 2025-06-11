@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { useTheme } from "../Context/ThemeContext";// ✅ context import cheyyuka
+import { useTheme } from "./context/ThemeContext.jsx";
+
 
 function formatTime(milliseconds) {
   const totalSeconds = Math.floor(milliseconds / 1000);
