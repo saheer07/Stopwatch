@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from "react";
 import Stopwatch from "./components/Stopwatch";
-import { useTheme } from "./Context/ThemeContext"; // 🔁 Correct path
+import { useTheme } from "./context/ThemeContext"; // 🔁 Correct path
 
 function App() {
   const { darkMode } = useTheme(); // 🔁 This line makes App re-render on darkMode change
